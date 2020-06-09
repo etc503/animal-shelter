@@ -23,3 +23,23 @@ h1 {
   text-align: center;
   background-color: bisque;
 }
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: left;
+    
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: pink;
+    color: red;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(128, 0, 70)
+  }
+}
