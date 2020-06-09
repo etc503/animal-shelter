@@ -1,10 +1,11 @@
 .column {
   width: 300px;
   float: left;
+  text-align: center;
 }
 
 img {
   height: 300px;
-  float: left;
+  float: top;
 }
 
